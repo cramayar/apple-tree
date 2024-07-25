@@ -14,14 +14,20 @@ In the console run:
 python3 apple_tree.py
 ```
 
-The player needs to input a letter from the alphabet and then press **Enter**.
-If the letter is in the word, the user will be prompted with to insert a new letter.
-If the inserted letter is not in the word in an apple will be disappear from the tree.
+The word that will be guessed is represented by the underscores _ _ _ ... and
+the word length is also displayed.
+The player needs to input a letter from the english alphabet and then press
+**Enter**.
+If the letter is in the word to be guessed, the player will be directly allowed
+to continue guessing new letters and no apples are deducted.
+If the inserted letter is not in the word, then an apple will disappear from
+the tree.
 
-The game ends if the player guessed all the letters or if the tree runs out of apples.
+The game ends either when the player guessed all the letters, or when the tree
+runs out of apples.
 
-I wrote this game mostly to provide educational tools for my kids and I want now
-to share it with you.
+I wrote this game mostly to provide educational tools for my kids and I thought
+it might be useful to you.
 
 ## Word list
 The words used are taken from a first grade level vocabulary:
@@ -120,7 +126,7 @@ The words used are taken from a first grade level vocabulary:
 
 > [!TIP]
 > I tried to run this game in a Raspberry Pi 3+ and found out that the emojis were missing.
-> I ran well after I installed the noto color emoji font:
+> It ran well after I installed the noto color emoji font:
 > ```
 > sudo apt install fonts-noto-color-emoji
 > ```
