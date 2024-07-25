@@ -4,11 +4,21 @@
 
 ## About the game
 Minimalistic implementation of a popular word guessing game formerly known as
-*hangman* but the premise of the game seems unsensitive for most educators and
-might send the wrong message to the children.
+*hangman* but the premise of the game does not withstand the test of time, and
+seems not only unnecesary but also insensitive for most educators and children.
 
-The rules are the same but in Apple tree we lose an apple every time the player
-input the wrong letter.
+## How to play
+
+In the console run:
+```
+python3 apple_tree.py
+```
+
+The player needs to input a letter from the alphabet and then press **Enter**.
+If the letter is in the word, the user will be prompted with to insert a new letter.
+If the inserted letter is not in the word in an apple will be disappear from the tree.
+
+The game ends if the player guessed all the letters or if the tree runs out of apples.
 
 I wrote this game mostly to provide educational tools for my kids and I want now
 to share it with you.
@@ -111,9 +121,9 @@ The words used are taken from a first grade level vocabulary:
 > [!TIP]
 > I tried to run this game in a Raspberry Pi 3+ and found out that the emojis were missing.
 > I ran well after I installed the noto color emoji font:
-> '''
+> ```
 > sudo apt install fonts-noto-color-emoji
-> '''
+> ```
 
 ## Credits
 * The ASCII logo was created with the [Text to ascii Art](https://www.asciiart.eu/text-to-ascii-art) generator.
