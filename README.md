@@ -1,14 +1,5 @@
 # APPLE TREE GAME
 
-                       _        _______
-     /\               | |      |__   __|
-    /  \   _ __  _ __ | | ___     | |_ __ ___  ___
-   / /\ \ | '_ \| '_ \| |/ _ \    | | '__/ _ \/ _ :
-  / ____ \| |_) | |_) | |  __/    | | | |  __/  __/
- /_/    \_\ .__/| .__/|_|\___|    |_|_|  \___|\___|
-          | |   | |
-          |_|   |_|
-
 ![Apple Tree Screenshot.](https://github.com/cramayar/apple-tree/blob/main/assets/images/apple_tree_screen.png?raw=true)
 
 ## About the game
